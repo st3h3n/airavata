@@ -532,7 +532,7 @@
                         </goals>
                         <configuration>
                             <tarLongFileMode>posix</tarLongFileMode>
-                            <finalName>${archieve.name}-${project.version}</finalName>
+                            <finalName>${archieve.name}-${project.version}-SNAPSHOT</finalName>
                             <descriptors>
                                 <descriptor>src/main/assembly/bin-assembly.xml</descriptor>
                                 <!-- <descriptor>src/main/assembly/src-assembly.xml</descriptor> -->
@@ -580,7 +580,7 @@
         <grizzly.version>2.0.0-M3</grizzly.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <archieve.name>apache-airavata-server</archieve.name>
-        <airavata.dist.name>${archieve.name}-${project.version}</airavata.dist.name>
+        <airavata.dist.name>${archieve.name}-${project.version}-SNAPSHOT</airavata.dist.name>
         <airavata.work.dir>${project.build.directory}/tests/${airavata.dist.name}</airavata.work.dir>
         <airavata.bin.zip>${project.build.directory}/${airavata.dist.name}-bin.zip</airavata.bin.zip>
         <airavata.bin.tar.gz>${project.build.directory}/${airavata.dist.name}-bin.tar.gz</airavata.bin.tar.gz>
